@@ -1,0 +1,406 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Para centralizar verticalmente */
+    background: url("./Plano\ de\ Fundo_Pc.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.Nav-Bar{
+  display: flex;
+  width: 100% ;
+  height: 250px;
+  align-items: center;
+  flex-direction: column;
+  background: white;
+}
+
+.Logo_kopermax{
+  margin: 10px;
+  width: 419px ;
+  height: 88px;
+
+}
+
+.primary-section {
+    display: flex;
+    flex-direction: column;
+    height: 100%; 
+    width: 100%;
+  }
+  
+
+  .primary-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    height: 100%; 
+    width: 100%;
+  }
+
+  .primary-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    height: 15%; 
+    width: 100%;
+  }
+
+  .primary-container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    height: 100%; 
+    width: 100%;
+    margin-top: 100px;
+  }
+
+
+  .container_Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    height: 100%; 
+    width: 50%;
+
+  }
+
+  .secundary-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 20px;
+
+  }
+  
+  .Container-Left {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    width: 600px;
+  }
+  
+  .Container-Right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    width: 600px;
+  }
+  
+  .Container-Win{
+    width: 400px;
+    height: 400px;
+  }
+  
+
+  /* 60% de transparencia */
+.Form{
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #FFFFFF);
+ border-radius: 50px;
+ padding: 20px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ width: 300px;
+ height: 400px;
+ gap: 40px;
+};
+
+.Forms-left{
+  width: 100%;
+  height: 100%;
+}
+
+
+.Forms-right {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.CampoPR {
+  background: white;
+  margin-bottom: 10px;
+  width: 300px;
+  height: 150px;
+  border-radius: 25px;
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+}
+
+.ButtonEN{
+  margin-bottom: 10px; 
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  color: black;
+}
+
+.CampoNM,
+.CampoST{
+  margin-bottom: 10px; 
+  width: 200px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 10px;
+  text-align: center;
+
+}
+
+.CampoT{
+  margin-bottom: 10px; 
+  width: 5;
+  width: 300px;
+  height: 25px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.Titulos_forms{
+  font-size: 25px;
+  padding: 10px;
+}
+
+input::placeholder {
+  text-align: center;
+  opacity: 1; 
+}
+
+.Footer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.Container_Feedback{
+  width: 90%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content :end;
+
+}
+
+.Feedback{
+  width: 200px;
+  height: 30px;
+  border-radius: 50px 50px 0 0; /* Define border radius apenas para as bordas superiores */
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.Modal button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Modal button:hover {
+  background-color: #0056b3;
+}
+
+
+.icon-img {
+  margin: 0 2px; /* Add some space between icons */
+}
+
+.icon img {
+  width: 30px; /* Define the desired width for the icons */
+  height: 30px; /* Define the desired height for the icons */
+}
+.Titulos_forms{
+  color: white;
+
+}
+
+.Form1{
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #FFFFFF);
+  border-radius: 50px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  gap: 5px;
+
+}
+
+.CampoPR1{
+  background: white;
+  margin-bottom: 10px;
+  width: 180px;
+  height: 150px;
+  border-radius: 25px;
+  word-wrap: break-word;
+  overflow-wrap: break-word; 
+}
+
+
+.Option{
+  margin-bottom: 10px; 
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 10px;
+
+}
+
+.Forms-center1{
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.aolado{
+  display: flex;
+}
+
+.Text1{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  color: white;
+}
+
+.Text2{
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.Status{
+  font-size: 28px;
+  color: black;
+}
+
+
+
+/* Estilos para tablets (largura até 768px) */
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: cover; /* Ajusta o tamanho do plano de fundo para cobrir */
+  }
+
+  .Nav-Bar {
+    height: auto; /* Ajusta a altura conforme necessário */
+    padding: 20px; /* Espaçamento interno adicional */
+  }
+
+  .Logo_kopermax {
+    width: 80%; /* Ajusta a largura do logo para ser responsiva */
+    height: auto; /* Mantém a proporção do logo */
+  }
+
+  /* Ajustes para os containers principais */
+  .primary-container,
+  .primary-container1,
+  .primary-container2 {
+    margin-top: 50px; /* Reduz a margem superior */
+  }
+
+  .Form,
+  .Form1 {
+    width: 80%; /* Ajusta a largura dos formulários */
+  }
+
+  .CampoPR,
+  .CampoPR1 {
+    width: 100%; /* Ajusta a largura dos campos de texto */
+  }
+
+  .CampoNM,
+  .CampoST {
+    width: 100%; /* Ajusta a largura dos campos de nome e sobrenome */
+  }
+
+  .CampoT {
+    width: 100%; /* Ajusta a largura do campo de telefone */
+  }
+
+  .ButtonEN {
+    width: 100%; /* Ajusta a largura do botão de envio */
+  }
+
+  .Text1 {
+    font-size: 20px; /* Reduz o tamanho da fonte para o texto 1 */
+  }
+
+  
+  .B {
+    margin: 5px;
+    border: none ; 
+    height: 50px;
+    border-radius: 20px;
+
+  }
+  
+  .B:active {
+    background: rgb(12, 214, 255); /* Altera a cor da borda ao passar o mouse */
+  }
+}
+
+/* Estilos para dispositivos móveis (largura até 480px) */
+@media only screen and (max-width: 480px) {
+  .Logo_kopermax {
+    width: 100%; /* Ajusta completamente a largura do logo para dispositivos menores */
+  }
+
+  .Text1 {
+    font-size: 18px; /* Reduz ainda mais o tamanho da fonte para o texto 1 */
+  }
+
+  .ButtonEN {
+    width: 100%; /* Garante que o botão ocupe toda a largura disponível */
+  }
+}
