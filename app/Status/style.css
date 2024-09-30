@@ -324,7 +324,7 @@ input::placeholder {
   color: black;
 }
 
-
+.menu, .menu-bar {
 position: fixed;
 bottom: 0;
 left: 0;
