@@ -400,7 +400,7 @@ color: #72739f;
 text-decoration:none;  
 position: relative;
 font-family:verdana;
-border-bottom: 1px solid rgba(0, 0, 0, 0.959);
+border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 transition: background 0.1s ease-in-out;
 }
 .menu-bar li:first-child a{
