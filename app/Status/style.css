@@ -333,7 +333,7 @@ height: 100%;
 list-style-type: none;
 margin: 0;
 padding: 0;
-background: #f7f7f7;
+background: #f7f7f70e;
 z-index:10;  
 overflow:hidden;
 box-shadow: 2px 0 18px rgba(0, 0, 0, 0.26);
@@ -424,7 +424,48 @@ max-width: 600px;
 margin: 0 center;
 }
 
+@media all and (max-width: 500px) {
 
+  .container{
+    margin-top:100px;
+}
+
+.menu{
+    height:5em;
+    width:100%;
+}
+
+.menu li{
+    display:inline-block;
+}
+.menu-bar li a{
+    width:100%;
+}
+.menu-bar{
+    width:100%;
+    left:0;
+  bottom: 0;
+    height:0;
+}
+.open{
+    width:100%;
+    height:auto;
+}
+.para{
+padding-left:5px;
+}  
+}
+@media screen and (max-height: 34em){
+.menu li,
+.menu-bar {
+font-size:70%;
+}
+}
+@media screen and (max-height: 34em) and (max-width: 500px){
+.menu{
+    height:3.5em;
+}
+}
 
 /* Estilos para tablets (largura até 768px) */
 @media only screen and (max-width: 768px) {
