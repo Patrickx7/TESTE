@@ -149,6 +149,32 @@ const Home = () => {
 
   return (
     <main className="primary-section">
+
+      <header>
+       <ul className="menu">
+
+          <li title="home"><a href="#" className="menu-button home">menu</a></li>
+          
+          <li title="search"><a href="#" className="search">search</a></li>
+          <li title="pencil"><a href="#" className="pencil">pencil</a></li>
+          <li title="about"><a href="#" className="active about">about</a></li>
+          <li title="archive"><a href="#" className="archive">archive</a></li>
+          <li title="contact"><a href="#" className="contact">contact</a></li>
+        </ul>
+        
+        <ul className="menu-bar">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Chamados TI</a></li>
+            <li><a href="#">Em Breve</a></li>
+            <li><a href="#">Em Breve</a></li>
+        </ul>
+
+        <div className="content">
+          <h1>Bem-vindo</h1>
+          <p>Selecione uma opção no menu à esquerda.</p>
+        </div>
+     </header>  
       <div className="Nav-Bar">
         <img className="Logo_kopermax" src="Logo KoperMax.png" alt="Logo KoperMax" />
       </div>
