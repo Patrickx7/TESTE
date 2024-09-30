@@ -1,4 +1,3 @@
-@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
 
 html, body {
     margin: 0;
@@ -545,3 +544,5 @@ font-size:70%;
     width: 100%; /* Garante que o botão ocupe toda a largura disponível */
   }
 }
+
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
