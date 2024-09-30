@@ -1,6 +1,6 @@
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
 
-body {
+html, body {
     margin: 0;
     padding: 0;
     display: flex;
