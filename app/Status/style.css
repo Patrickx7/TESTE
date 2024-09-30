@@ -1,6 +1,6 @@
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
 
-html, body {
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,7 +8,7 @@ html, body {
     align-items: center;
     justify-content: center; /* Para centralizar verticalmente */
     background: url("./Plano\ de\ Fundo_Pc.png") no-repeat center center fixed;
-    background-size: cover !important;
+    background-size: cover;
     height: 100%;
     width: 100%;
 }
