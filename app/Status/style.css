@@ -8,7 +8,7 @@ html, body {
     align-items: center;
     justify-content: center; /* Para centralizar verticalmente */
     background: url("./Plano\ de\ Fundo_Pc.png") no-repeat center center fixed;
-    background-size: cover;
+    background-size: cover !important;
     height: 100%;
     width: 100%;
 }
