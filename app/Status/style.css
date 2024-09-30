@@ -30,7 +30,6 @@ html, body {
 }
 
 .primary-section {
-  background: url("./Plano\ de\ Fundo_Pc.png") no-repeat center center fixed;
     display: flex;
     flex-direction: column;
     height: 100%; 
