@@ -424,13 +424,16 @@ margin: 0 center;
 }
 
 @media all and (max-width: 500px) {
-.container{
+
+  .container{
     margin-top:100px;
 }
+
 .menu{
     height:5em;
     width:100%;
 }
+
 .menu li{
     display:inline-block;
 }
