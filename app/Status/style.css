@@ -1,4 +1,4 @@
-
+@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
 
 html, body {
     margin: 0;
@@ -12,8 +12,6 @@ html, body {
     height: 100%;
     width: 100%;
 }
-
-@import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
 
 .Nav-Bar{
   display: flex;
