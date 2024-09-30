@@ -1,16 +1,14 @@
 @import url("//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css");
 
 html, body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; /* Para centralizar verticalmente */
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    min-height: 100vh; /* Garante que o fundo cubra toda a altura da janela */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./Plano\ de\ Fundo_Pc.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 100vh; /* Garante que o fundo cubra toda a altura da janela */
 }
 
 body::before {
@@ -20,9 +18,10 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("./Plano\ de\ Fundo_Pc.png") no-repeat center center fixed;
+  background-color: rgba(13, 25, 196, 0.226); /* Escurece a imagem */
   z-index: -1;
 }
+
 
 .Nav-Bar{
   display: flex;
