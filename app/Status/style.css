@@ -11,6 +11,7 @@ html, body {
     background-size: cover;
     height: 100%;
     width: 100%;
+    min-height: 100vh; /* Garante que o fundo cubra toda a altura da janela */
 }
 
 .Nav-Bar{
