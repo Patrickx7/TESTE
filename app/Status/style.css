@@ -19,7 +19,7 @@ html, body {
   height: 250px;
   align-items: center;
   flex-direction: column;
-  background: rgba(255, 255, 255, 0.116);
+  background: white;
 }
 
 .Logo_kopermax{
@@ -41,7 +41,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0);
     height: 100%; 
     width: 100%;
   }
@@ -50,7 +50,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.055);
     height: 15%; 
     width: 100%;
   }
@@ -59,7 +59,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: aliceblue;
+    color: rgba(240, 248, 255, 0.034);
     height: 100%; 
     width: 100%;
     margin-top: 100px;
